@@ -30,6 +30,7 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      ge: ["https://gemini.google.com/app?hl=es-ES"],
     },
     default: "g",
   },
@@ -39,7 +40,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://gemini.google.com/app?hl=es-ES",
   openLastVisitedTab: true,
   tabs: [
     {
