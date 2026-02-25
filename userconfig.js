@@ -105,7 +105,7 @@ const default_configuration = {
               name: "Twitch",
               url: "https://www.twitch.tv/",
               icon: "brand-twitch",
-              icon_color: palette.purple,
+              icon_color: palette.magenta,
             },
             {
               name: "Instagram",
@@ -122,7 +122,7 @@ const default_configuration = {
             {
               name: "AniList",
               url: "https://anilist.co/user/asomiD/",
-              icon: "eye-spark",
+              icon: "eye-check",
               icon_color: palette.mauve,
             },
           ],
