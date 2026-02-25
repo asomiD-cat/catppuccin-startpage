@@ -114,7 +114,7 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "X",
+              name: "",
               url: "https://x.com/home",
               icon: "brand-x",
               icon_color: palette.blue,
