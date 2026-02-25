@@ -96,10 +96,10 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
+              name: "YouTube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.red,
             },
             {
               name: "mil.in.ua",
