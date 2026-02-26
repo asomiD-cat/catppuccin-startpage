@@ -45,13 +45,13 @@ const default_configuration = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/frieren.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "Movistar+",
+              name: "Movistar",
               url: "https://ver.movistarplus.es/",
               icon: "plus",
               icon_color: palette.sky,
@@ -131,93 +131,75 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      name: "uni",
+      background_url: "src/img/banners/frierenreading.gif",
       categories: [
         {
-          name: "development",
+          name: "upc",
           links: [
             {
-              name: "github",
+              name: "Github",
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "Racó",
+              url: "https://raco.fib.upc.edu/home/portada/didac.molina",
+              icon: "school",
               icon_color: palette.peach,
             },
             {
-              name: "duckdb",
-              url: "https://app.motherduck.com",
-              icon: "file-type-sql",
-              icon_color: palette.red,
-            },
-            {
-              name: "collab",
-              url: "https://colab.research.google.com",
-              icon: "notebook",
-              icon_color: palette.mauve,
+              name: "Atenea",
+              url: "https://atenea.upc.edu/my/",
+              icon: "world-www",
+              icon_color: palette.sky,
             },
           ],
         },
         {
-          name: "challenges",
+          name: "programming",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "Jutge",
+              url: "https://jutge.org/dashboard",
+              icon: "hammer",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
+              name: "PRO2",
+              url: "https://pro2.cs.upc.edu/",
+              icon: "file-code",
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
+              name: "Diffchecker",
+              url: "https://www.diffchecker.com/en/",
+              icon: "zoom-check",
               icon_color: palette.blue,
+            },
+            {
+              name: "ws3",
+              url: "https://www.w3schools.com/",
+              icon: "code-dots",
+              icon_color: palette.peach,
             },
           ],
         },
         {
-          name: "resources",
+          name: "webpages",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
+              name: "EC Web",
+              url: "https://docencia.ac.upc.edu/FIB/grau/EC/",
+              icon: "device-desktop",
               icon_color: palette.red,
             },
             {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
+              name: "M1 Web",
+              url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm",
+              icon: "topology-full",
+              icon_color: palette.peach,
             },
           ],
         },
@@ -225,7 +207,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/frierenstupid.gif",
       categories: [
         {
           name: "social media",
