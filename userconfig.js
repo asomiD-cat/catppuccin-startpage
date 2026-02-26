@@ -158,7 +158,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "programming",
+          name: "coding",
           links: [
             {
               name: "Jutge",
