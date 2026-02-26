@@ -51,10 +51,10 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "Movistar+",
+              url: "https://ver.movistarplus.es/",
+              icon: "plus",
+              icon_color: palette.sky,
             },
             {
               name: "musicForProgramming();",
@@ -106,7 +106,7 @@ const default_configuration = {
               name: "Twitch",
               url: "https://www.twitch.tv/",
               icon: "brand-twitch",
-              icon_color: palette.magenta,
+              icon_color: palette.flamingo,
             },
             {
               name: "Instagram",
