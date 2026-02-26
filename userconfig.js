@@ -19,7 +19,7 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "ES",
+      label: "CAT",
       timezone: "Europe/Madrid",
       format: "h:i",
       icon_color: palette.peach,
