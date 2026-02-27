@@ -73,9 +73,17 @@ class Category extends Component {
    * @param {string} url - Background image URL
    * @returns {string} CSS style attribute string
    */
-  static getBackgroundStyle(url) {
-    return `style="background-image: url(${url}); background-repeat: no-repeat; background-size: contain;"`;
+ static getBackgroundStyle(url) {
+  // Definim la posició per defecte
+  let position = "left center";
+
+  // Si és el GIF dels peus, el tirem a l'esquerra
+  if (url.includes("frierenfeet.gif")) {
+    position = "-120px center";
   }
+
+  return `style="background-image: url(${url}); background-repeat: no-repeat; background-size: contain; background-position: ${position};"`;
+}
 
   /**
    * Generates HTML for all tab categories
