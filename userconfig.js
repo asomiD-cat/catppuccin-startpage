@@ -179,7 +179,7 @@ const default_configuration = {
               icon_color: palette.blue,
             },
             {
-              name: "ws3",
+              name: "w3s",
               url: "https://www.w3schools.com/",
               icon: "code-dots",
               icon_color: palette.peach,
@@ -206,11 +206,11 @@ const default_configuration = {
       ],
     },
     {
-      name: "chi ll",
+      name: "games",
       background_url: "src/img/banners/frierenstupid.gif",
       categories: [
         {
-          name: "social media",
+          name: "buy games",
           links: [
             {
               name: "telegram",
@@ -262,7 +262,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "video",
+          name: "utils",
           links: [
             {
               name: "anilist",
