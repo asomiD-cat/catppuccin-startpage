@@ -1,7 +1,6 @@
 // User configuration for the startpage - update the palette, location, and your preferred tabs, categories, and links
 
 // Define preferred palette for light and dark mode
-// Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
 const preferredDarkTheme = mocha;
 
@@ -67,6 +66,7 @@ const default_configuration = {
         {
           name: "media",
           links: [
+            { name: "WhatsApp", url: "https://web.whatsapp.com/", icon: "brand-whatsapp", icon_color: palette.green },
             { name: "YouTube", url: "https://www.youtube.com", icon: "brand-youtube", icon_color: palette.red },
             { name: "Twitch", url: "https://www.twitch.tv/", icon: "brand-twitch", icon_color: palette.flamingo },
             { name: "Instagram", url: "https://www.instagram.com/", icon: "brand-instagram", icon_color: palette.red },
@@ -93,7 +93,7 @@ const default_configuration = {
             { name: "Jutge", url: "https://jutge.org/dashboard", icon: "hammer", icon_color: palette.green },
             { name: "PRO2", url: "https://pro2.cs.upc.edu/", icon: "file-code", icon_color: palette.red },
             { name: "Diffchecker", url: "https://www.diffchecker.com/en/", icon: "zoom-check", icon_color: palette.blue },
-            { name: "w3s", url: "https://www.w3schools.com/", icon: "code-dots", icon_color: palette.peach },
+            { name: "W3S", url: "https://www.w3schools.com/", icon: "code-dots", icon_color: palette.peach },
           ],
         },
         {
@@ -106,7 +106,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "chill",
+      name: "chi ll",
       background_url: "src/img/banners/frierenfeet.gif",
       categories: [
         {
