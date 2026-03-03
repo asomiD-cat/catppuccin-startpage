@@ -13,7 +13,7 @@ const default_configuration = {
     location: "Barcelona",
     scale: "C",
   },
-  clock: {m
+  clock: {
     format: "k:i p",
     icon_color: palette.maroon,
   },
