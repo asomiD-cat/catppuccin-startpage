@@ -13,7 +13,7 @@ const default_configuration = {
     location: "Barcelona",
     scale: "C",
   },
-  clock: {
+  clock: {m
     format: "k:i p",
     icon_color: palette.maroon,
   },
@@ -125,6 +125,12 @@ const default_configuration = {
               url: "https://x.com/home",
               icon: "brand-x",
               icon_color: palette.blue,
+            },
+            {
+              name: "WhatsApp",
+              url: "https://web.whatsapp.com/",
+              icon: "brand-whatsapp",
+              icon_color: palette.green,
             },
           ],
         },
