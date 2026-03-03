@@ -1,9 +1,6 @@
-// User configuration for the startpage - update the palette, location, and your preferred tabs, categories, and links
-
 // Define preferred palette for light and dark mode
-// Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = latte;
-const preferredDarkTheme = mocha;
+const preferredLightTheme = "latte"; 
+const preferredDarkTheme = "mocha";
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -50,82 +47,27 @@ const default_configuration = {
         {
           name: "bookmarks",
           links: [
-            {
-              name: "Movistar",
-              url: "https://ver.movistarplus.es/",
-              icon: "plus",
-              icon_color: palette.sky,
-            },
-            {
-              name: "DAZN",
-              url: "https://www.dazn.com/es-ES/home",
-              icon: "building-stadium",
-              icon_color: palette.green,
-            },
-            {
-              name: "r/unixporn",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
+            { name: "Movistar", url: "https://ver.movistarplus.es/", icon: "plus", icon_color: palette.sky },
+            { name: "DAZN", url: "https://www.dazn.com/es-ES/home", icon: "building-stadium", icon_color: palette.green },
+            { name: "r/unixporn", url: "https://www.reddit.com/r/unixporn", icon: "brand-reddit", icon_color: palette.red },
           ],
         },
         {
           name: "workspace",
           links: [
-            {
-              name: "Gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "GCalendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "GSheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "GDrive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
+            { name: "Gmail", url: "https://mail.google.com", icon: "brand-gmail", icon_color: palette.green },
+            { name: "GCalendar", url: "https://calendar.google.com", icon: "calendar-filled", icon_color: palette.peach },
+            { name: "GSheets", url: "https://docs.google.com/spreadsheets", icon: "table", icon_color: palette.red },
+            { name: "GDrive", url: "https://drive.google.com/drive/home", icon: "brand-google-drive", icon_color: palette.blue },
           ],
         },
         {
           name: "media",
           links: [
-            {
-              name: "YouTube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.red,
-            },
-            {
-              name: "Twitch",
-              url: "https://www.twitch.tv/",
-              icon: "brand-twitch",
-              icon_color: palette.flamingo,
-            },
-            {
-              name: "Instagram",
-              url: "https://www.instagram.com/",
-              icon: "brand-instagram",
-              icon_color: palette.red,
-            },
-            {
-              name: "Twitter",
-              url: "https://x.com/home",
-              icon: "brand-x",
-              icon_color: palette.blue,
-            },
+            { name: "YouTube", url: "https://www.youtube.com", icon: "brand-youtube", icon_color: palette.red },
+            { name: "Twitch", url: "https://www.twitch.tv/", icon: "brand-twitch", icon_color: palette.flamingo },
+            { name: "Instagram", url: "https://www.instagram.com/", icon: "brand-instagram", icon_color: palette.red },
+            { name: "Twitter", url: "https://x.com/home", icon: "brand-x", icon_color: palette.blue },
           ],
         },
       ],
@@ -137,151 +79,56 @@ const default_configuration = {
         {
           name: "upc",
           links: [
-            {
-              name: "Github",
-              url: "https://github.com",
-              icon: "brand-github",
-              icon_color: palette.green,
-            },
-            {
-              name: "Racó",
-              url: "https://raco.fib.upc.edu/home/portada/didac.molina",
-              icon: "school",
-              icon_color: palette.peach,
-            },
-            {
-              name: "Atenea",
-              url: "https://atenea.upc.edu/my/",
-              icon: "world-www",
-              icon_color: palette.sky,
-            },
+            { name: "Github", url: "https://github.com", icon: "brand-github", icon_color: palette.green },
+            { name: "Racó", url: "https://raco.fib.upc.edu/home/portada/didac.molina", icon: "school", icon_color: palette.peach },
+            { name: "Atenea", url: "https://atenea.upc.edu/my/", icon: "world-www", icon_color: palette.sky },
           ],
         },
         {
           name: "coding",
           links: [
-            {
-              name: "Jutge",
-              url: "https://jutge.org/dashboard",
-              icon: "hammer",
-              icon_color: palette.green,
-            },
-            {
-              name: "PRO2",
-              url: "https://pro2.cs.upc.edu/",
-              icon: "file-code",
-              icon_color: palette.red,
-            },
-            {
-              name: "Diffchecker",
-              url: "https://www.diffchecker.com/en/",
-              icon: "zoom-check",
-              icon_color: palette.blue,
-            },
-            {
-              name: "w3s",
-              url: "https://www.w3schools.com/",
-              icon: "code-dots",
-              icon_color: palette.peach,
-            },
+            { name: "Jutge", url: "https://jutge.org/dashboard", icon: "hammer", icon_color: palette.green },
+            { name: "PRO2", url: "https://pro2.cs.upc.edu/", icon: "file-code", icon_color: palette.red },
+            { name: "Diffchecker", url: "https://www.diffchecker.com/en/", icon: "zoom-check", icon_color: palette.blue },
+            { name: "w3s", url: "https://www.w3schools.com/", icon: "code-dots", icon_color: palette.peach },
           ],
         },
         {
           name: "webpages",
           links: [
-            {
-              name: "EC Web",
-              url: "https://docencia.ac.upc.edu/FIB/grau/EC/",
-              icon: "device-desktop",
-              icon_color: palette.red,
-            },
-            {
-              name: "M1 Web",
-              url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm",
-              icon: "topology-full",
-              icon_color: palette.peach,
-            },
+            { name: "EC Web", url: "https://docencia.ac.upc.edu/FIB/grau/EC/", icon: "device-desktop", icon_color: palette.red },
+            { name: "M1 Web", url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm", icon: "topology-full", icon_color: palette.peach },
           ],
         },
       ],
     },
     {
-      name: "chi ll",
+      name: "chill", // Space removed here
       background_url: "src/img/banners/frierenfeet.gif",
       categories: [
         {
           name: "buy games",
           links: [
-            {
-              name: "GG Deals",
-              url: "https://gg.deals/",
-              icon: "shopping-cart-discount",
-              icon_color: palette.green,
-            },
-            {
-              name: "Instant Gaming",
-              url: "https://www.instant-gaming.com/es/",
-              icon: "shopping-cart-discount",
-              icon_color: palette.peach,
-            },
-            {
-              name: "Eneba",
-              url: "https://www.eneba.com/es/",
-              icon: "shopping-cart-discount",
-              icon_color: palette.red,
-            },
+            { name: "GG Deals", url: "https://gg.deals/", icon: "shopping-cart-discount", icon_color: palette.green },
+            { name: "Instant Gaming", url: "https://www.instant-gaming.com/es/", icon: "shopping-cart-discount", icon_color: palette.peach },
+            { name: "Eneba", url: "https://www.eneba.com/es/", icon: "shopping-cart-discount", icon_color: palette.red },
           ],
         },
         {
           name: "gaming",
           links: [
-            {
-              name: "infiniteBacklog",
-              url: "https://infinitebacklog.net",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
-              name: "Steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "Vandal",
-              url: "https://vandal.elespanol.com/",
-              icon: "news",
-              icon_color: palette.red,
-            },
+            { name: "infiniteBacklog", url: "https://infinitebacklog.net", icon: "device-gamepad", icon_color: palette.green },
+            { name: "Steam", url: "https://store.steampowered.com", icon: "brand-steam", icon_color: palette.peach },
+            { name: "Vandal", url: "https://vandal.elespanol.com/", icon: "news", icon_color: palette.red },
           ],
         },
         {
           name: "utils",
           links: [
-            {
-              name: "SteamDB",
-              url: "https://steamdb.info/",
-              icon: "database",
-              icon_color: palette.green,
-            },
-            {
-              name: "Weeb Central",
-              url: "https://weebcentral.com/",
-              icon: "book",
-              icon_color: palette.peach,
-            },
-            {
-              name: "AniList",
-              url: "https://anilist.co/user/asomiD/",
-              icon: "eye-check",
-              icon_color: palette.red,
-            },
-            {
-              name: "MyFigureCollection",
-              url: "https://myfigurecollection.net/",
-              icon: "shirt",
-              icon_color: palette.blue,
-            },
+            { name: "SteamDB", url: "https://steamdb.info/", icon: "database", icon_color: palette.green },
+            { name: "Weeb Central", url: "https://weebcentral.com/", icon: "book", icon_color: palette.peach },
+            { name: "AniList", url: "https://anilist.co/user/asomiD/", icon: "eye-check", icon_color: palette.red },
+            { name: "MyFigureCollection", url: "https://myfigurecollection.net/", icon: "shirt", icon_color: palette.blue },
           ],
         },
       ],
