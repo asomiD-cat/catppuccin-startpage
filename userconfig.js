@@ -29,7 +29,7 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
-      ge: ["https://gemini.google.com/search/?q=", "Gemini"],
+      ge: ["https://gemini.google.com/app?q=", "Gemini"],
     },
     default: "g",
   },
