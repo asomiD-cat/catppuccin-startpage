@@ -126,12 +126,6 @@ const default_configuration = {
               icon: "brand-x",
               icon_color: palette.blue,
             },
-            {
-              name: "WhatsApp",
-              url: "https://web.whatsapp.com/",
-              icon: "brand-whatsapp",
-              icon_color: palette.green,
-            },
           ],
         },
       ],
