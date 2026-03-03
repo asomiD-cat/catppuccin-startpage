@@ -1,6 +1,9 @@
+// User configuration for the startpage - update the palette, location, and your preferred tabs, categories, and links
+
 // Define preferred palette for light and dark mode
-const preferredLightTheme = "latte"; 
-const preferredDarkTheme = "mocha";
+// Available themes: latte, frappe, mocha, macchiato
+const preferredLightTheme = latte;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -103,7 +106,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "chill", // Space removed here
+      name: "chill",
       background_url: "src/img/banners/frierenfeet.gif",
       categories: [
         {
