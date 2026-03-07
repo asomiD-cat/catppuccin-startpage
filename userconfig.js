@@ -90,7 +90,7 @@ const default_configuration = {
         {
           name: "coding",
           links: [
-            { name: "Jutge", url: "https://jutge.org/dashboard", icon: "hammer", icon_color: palette.green },
+            { name: "Jutge", url: "https://jutge.org/", icon: "hammer", icon_color: palette.green },
             { name: "PRO2", url: "https://pro2.cs.upc.edu/", icon: "file-code", icon_color: palette.red },
             { name: "Diffchecker", url: "https://www.diffchecker.com/en/", icon: "zoom-check", icon_color: palette.blue },
             { name: "W3S", url: "https://www.w3schools.com/", icon: "code-dots", icon_color: palette.peach },
