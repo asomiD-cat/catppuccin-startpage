@@ -52,6 +52,7 @@ const default_configuration = {
             { name: "Movistar", url: "https://ver.movistarplus.es/", icon: "plus", icon_color: palette.sky },
             { name: "DAZN", url: "https://www.dazn.com/es-ES/home", icon: "building-stadium", icon_color: palette.green },
             { name: "r/unixporn", url: "https://www.reddit.com/r/unixporn", icon: "brand-reddit", icon_color: palette.red },
+            { name: "Hyprland", url: "https://wiki.hypr.land/", icon: "droplet", icon_color: palette.sky },
           ],
         },
         {
