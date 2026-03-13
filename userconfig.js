@@ -102,6 +102,7 @@ const default_configuration = {
           links: [
             { name: "EC Web", url: "https://docencia.ac.upc.edu/FIB/grau/EC/", icon: "device-desktop", icon_color: palette.red },
             { name: "M1 Web", url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm", icon: "topology-full", icon_color: palette.peach },
+            { name: "Sawix", url: "https://apunts-pro2.vercel.app/", icon: "text-recognition", icon_color: palette.sky },
           ],
         },
       ],
